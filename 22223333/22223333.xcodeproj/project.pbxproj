@@ -14,6 +14,8 @@
 		099892B71B537FA200B6B96E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 099892B61B537FA200B6B96E /* Images.xcassets */; };
 		099892BA1B537FA200B6B96E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 099892B81B537FA200B6B96E /* LaunchScreen.xib */; };
 		099892C61B537FA200B6B96E /* _2223333Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 099892C51B537FA200B6B96E /* _2223333Tests.m */; };
+		D070A34B1B5C84B70035B66F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D070A34A1B5C84B70035B66F /* RootViewController.m */; };
+		D070A34E1B5C84CA0035B66F /* RootView.m in Sources */ = {isa = PBXBuildFile; fileRef = D070A34D1B5C84CA0035B66F /* RootView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		099892BF1B537FA200B6B96E /* 22223333Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 22223333Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		099892C41B537FA200B6B96E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		099892C51B537FA200B6B96E /* _2223333Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _2223333Tests.m; sourceTree = "<group>"; };
+		D070A3491B5C84B70035B66F /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		D070A34A1B5C84B70035B66F /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		D070A34C1B5C84CA0035B66F /* RootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootView.h; sourceTree = "<group>"; };
+		D070A34D1B5C84CA0035B66F /* RootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				099892AE1B537FA200B6B96E /* AppDelegate.m */,
 				099892B01B537FA200B6B96E /* ViewController.h */,
 				099892B11B537FA200B6B96E /* ViewController.m */,
+				D070A3491B5C84B70035B66F /* RootViewController.h */,
+				D070A34A1B5C84B70035B66F /* RootViewController.m */,
+				D070A34C1B5C84CA0035B66F /* RootView.h */,
+				D070A34D1B5C84CA0035B66F /* RootView.m */,
 				099892B31B537FA200B6B96E /* Main.storyboard */,
 				099892B61B537FA200B6B96E /* Images.xcassets */,
 				099892B81B537FA200B6B96E /* LaunchScreen.xib */,
@@ -221,7 +231,9 @@
 			files = (
 				099892B21B537FA200B6B96E /* ViewController.m in Sources */,
 				099892AF1B537FA200B6B96E /* AppDelegate.m in Sources */,
+				D070A34B1B5C84B70035B66F /* RootViewController.m in Sources */,
 				099892AC1B537FA200B6B96E /* main.m in Sources */,
+				D070A34E1B5C84CA0035B66F /* RootView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +430,7 @@
 				099892CB1B537FA200B6B96E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		099892CC1B537FA200B6B96E /* Build configuration list for PBXNativeTarget "22223333Tests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +439,7 @@
 				099892CE1B537FA200B6B96E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
