@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		095C77371B99A18200882D39 /* asdasdas.m in Sources */ = {isa = PBXBuildFile; fileRef = 095C77361B99A18200882D39 /* asdasdas.m */; };
 		099892AC1B537FA200B6B96E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 099892AB1B537FA200B6B96E /* main.m */; };
 		099892AF1B537FA200B6B96E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 099892AE1B537FA200B6B96E /* AppDelegate.m */; };
 		099892B21B537FA200B6B96E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 099892B11B537FA200B6B96E /* ViewController.m */; };
@@ -29,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		095C77351B99A18200882D39 /* asdasdas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asdasdas.h; sourceTree = "<group>"; };
+		095C77361B99A18200882D39 /* asdasdas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = asdasdas.m; sourceTree = "<group>"; };
 		099892A61B537FA200B6B96E /* 22223333.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 22223333.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		099892AA1B537FA200B6B96E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		099892AB1B537FA200B6B96E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -95,6 +98,8 @@
 				D070A34A1B5C84B70035B66F /* RootViewController.m */,
 				D070A34C1B5C84CA0035B66F /* RootView.h */,
 				D070A34D1B5C84CA0035B66F /* RootView.m */,
+				095C77351B99A18200882D39 /* asdasdas.h */,
+				095C77361B99A18200882D39 /* asdasdas.m */,
 				099892B31B537FA200B6B96E /* Main.storyboard */,
 				099892B61B537FA200B6B96E /* Images.xcassets */,
 				099892B81B537FA200B6B96E /* LaunchScreen.xib */,
@@ -234,6 +239,7 @@
 				D070A34B1B5C84B70035B66F /* RootViewController.m in Sources */,
 				099892AC1B537FA200B6B96E /* main.m in Sources */,
 				D070A34E1B5C84CA0035B66F /* RootView.m in Sources */,
+				095C77371B99A18200882D39 /* asdasdas.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
